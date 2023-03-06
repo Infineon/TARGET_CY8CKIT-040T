@@ -14,11 +14,15 @@ The CY8CKIT-040T library includes the following:
 * API documentation
 
 ### What Changed?
+#### v3.1.0
+* Add macro `CYBSP_USER_BTN_DRIVE` indicating the drive mode that should be used for user buttons
 #### v3.0.0
-* Removed default HAL dependency. If HAL is needed it can be be
-  added to the application using the library manager.
+Note: This revision is only compatible with ModusToolbox Tools 3.0 and newer.
+* Removed default dependency on HAL and CAPSENSE™ middleware. If either is needed they can be added to the application using the library manager.
 * Updated recipe-make, core-make, and PDL to new major versions
 * Regenerated code with Configurators from ModusToolbox™ v3.0.0
+* Renamed top level board makefile to bsp.mk
+* Removed version.xml file in favor of new props.json
 #### v2.0.0
 * Updated to HAL dependency to v2.0.0
 * Updated CAPSENSE™ dependency to v3.0.0
@@ -41,14 +45,14 @@ This version of the CY8CKIT-040T BSP was validated for compatibility with the fo
 | :---                                      | :----:  |
 | ModusToolbox™ Software Environment        | 3.0.0   |
 | GCC Compiler                              | 10.3.1  |
-| IAR Compiler                              | 8.4     |
-| ARM Compiler                              | 6.11    |
+| IAR Compiler                              | 9.30.1  |
+| ARM Compiler                              | 6.16    |
 
 Minimum required ModusToolbox™ Software Environment: v3.0.0
 
 ### More information
 * [CY8CKIT-040T BSP API Reference Manual][api]
-* [CY8CKIT-040T Documentation](https://www.cypress.com/documentation/development-kitsboards/cy8ckit-040t-psoc-4000t-capsense-evaluation-kit)
+* [CY8CKIT-040T Documentation](https://www.infineon.com/cms/en/product/evaluation-boards/cy8ckit-040t)
 * [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 * [Infineon GitHub](https://github.com/infineon)
 * [ModusToolbox™](https://www.cypress.com/products/modustoolbox-software-environment)
@@ -56,4 +60,4 @@ Minimum required ModusToolbox™ Software Environment: v3.0.0
 [api]: https://infineon.github.io/TARGET_CY8CKIT-040T/html/modules.html
 
 ---
-© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2021.
+© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2022.

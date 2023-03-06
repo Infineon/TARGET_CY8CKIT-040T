@@ -96,9 +96,7 @@ cy_rslt_t cybsp_init(void)
     #endif
     #endif // if defined(CY_USING_HAL)
 
-    #if defined(COMPONENT_BSP_DESIGN_MODUS) || defined(COMPONENT_CUSTOM_DESIGN_MODUS)
     init_cycfg_all();
-    #endif
 
     if (CY_RSLT_SUCCESS == result)
     {
