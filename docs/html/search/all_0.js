@@ -13,6 +13,5 @@ var searchData=
   ['cybsp_5fspi_5fmosi_10',['CYBSP_SPI_MOSI',['../group__group__bsp__pins__comm.html#ga07b4c8b6a15a1e614ff9be2ebe8088fd',1,'cybsp_doc.h']]],
   ['cybsp_5fswdck_11',['CYBSP_SWDCK',['../group__group__bsp__pins__comm.html#ga8f50aad29445466679abdcc75dcd9796',1,'cybsp_doc.h']]],
   ['cybsp_5fswdio_12',['CYBSP_SWDIO',['../group__group__bsp__pins__comm.html#ga9fba070d4040d6aa4f3e429bdfc38946',1,'cybsp_doc.h']]],
-  ['cybsp_5fuser_5fled_13',['CYBSP_USER_LED',['../group__group__bsp__pins__led.html#gacc2bba8588b183ec1d448eda9a039d7c',1,'cybsp_doc.h']]],
-  ['cybsp_5fuser_5fled1_14',['CYBSP_USER_LED1',['../group__group__bsp__pins__led.html#gaabc3ce31f840a85f1063ff3029ab79eb',1,'cybsp_doc.h']]]
+  ['cybsp_5fuser_5fled_13',['CYBSP_USER_LED',['../group__group__bsp__pins__led.html#gacc2bba8588b183ec1d448eda9a039d7c',1,'cybsp_doc.h']]]
 ];

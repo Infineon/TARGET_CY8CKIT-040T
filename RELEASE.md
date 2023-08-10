@@ -15,6 +15,8 @@ The CY8CKIT-040T library includes the following:
 
 ### What Changed?
 #### v3.1.0
+* Added functionality to enable BSP Assistant chip flow
+* Added capabilities to match BSPS created by BSP Assistant chip flow
 * Add macro `CYBSP_USER_BTN_DRIVE` indicating the drive mode that should be used for user buttons
 #### v3.0.0
 Note: This revision is only compatible with ModusToolbox Tools 3.0 and newer.
@@ -43,8 +45,8 @@ This version of the CY8CKIT-040T BSP was validated for compatibility with the fo
 
 | Software and Tools                        | Version |
 | :---                                      | :----:  |
-| ModusToolbox™ Software Environment        | 3.0.0   |
-| GCC Compiler                              | 10.3.1  |
+| ModusToolbox™ Software Environment        | 3.1.0   |
+| GCC Compiler                              | 11.3.1  |
 | IAR Compiler                              | 9.30.1  |
 | ARM Compiler                              | 6.16    |
 
