@@ -1,7 +1,7 @@
 ### CY8CKIT-040T BSP
-The PSoC™ 4000T CAPSENSE™ Evaluation Kit enables you to evaluate and develop with Cypress's fifth-generation, low-power CAPSENSE™ solution using the PSoC™ 4000T device.
+The PSOC™ 4000T CAPSENSE™ Evaluation Kit enables you to evaluate and develop with Cypress's fifth-generation, low-power CAPSENSE™ solution using the PSOC™ 4000T device.
 
-NOTE: BSPs are versioned by family. This means that version 1.2.0 of any BSP in a family (eg: PSoC™ 6) will have the same software maturity level. However, not all updates are necessarily applicable for each BSP in the family so not all version numbers will exist for each board. Additionally, new BSPs may not start at version 1.0.0. In the event of adding a common feature across all BSPs, the libraries are assigned the same version number. For example if BSP_A is at v1.3.0 and BSP_B is at v1.2.0, the event will trigger a version update to v1.4.0 for both BSP_A and BSP_B. This allows the common feature to be tracked in a consistent way.
+NOTE: BSPs are versioned by family. This means that version 1.2.0 of any BSP in a family (eg: PSOC™ 6) will have the same software maturity level. However, not all updates are necessarily applicable for each BSP in the family so not all version numbers will exist for each board. Additionally, new BSPs may not start at version 1.0.0. In the event of adding a common feature across all BSPs, the libraries are assigned the same version number. For example if BSP_A is at v1.3.0 and BSP_B is at v1.2.0, the event will trigger a version update to v1.4.0 for both BSP_A and BSP_B. This allows the common feature to be tracked in a consistent way.
 
 ### What's Included?
 The CY8CKIT-040T library includes the following:
@@ -14,9 +14,15 @@ The CY8CKIT-040T library includes the following:
 * API documentation
 
 ### What Changed?
-#### v3.1.0
+#### v3.3.0
+* Added a default handler for boot up status for CY8CKIT-045S and CY8CPROTO-040T
+#### v3.2.1
+* Updated the supported capabilities in props.json file for PSOC&trade; 4 BSPs.
+#### v3.2.0
 * Added functionality to enable BSP Assistant chip flow
 * Added capabilities to match BSPS created by BSP Assistant chip flow
+* Added a default handler for boot up status
+#### v3.1.0
 * Add macro `CYBSP_USER_BTN_DRIVE` indicating the drive mode that should be used for user buttons
 #### v3.0.0
 Note: This revision is only compatible with ModusToolbox Tools 3.0 and newer.
@@ -46,8 +52,8 @@ This version of the CY8CKIT-040T BSP was validated for compatibility with the fo
 | Software and Tools                        | Version |
 | :---                                      | :----:  |
 | ModusToolbox™ Software Environment        | 3.1.0   |
-| GCC Compiler                              | 11.3.1  |
-| IAR Compiler                              | 9.30.1  |
+| GCC Compiler                              | 12.2.1  |
+| IAR Compiler                              | 9.40.2  |
 | ARM Compiler                              | 6.16    |
 
 Minimum required ModusToolbox™ Software Environment: v3.0.0
@@ -62,4 +68,4 @@ Minimum required ModusToolbox™ Software Environment: v3.0.0
 [api]: https://infineon.github.io/TARGET_CY8CKIT-040T/html/modules.html
 
 ---
-© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2022.
+© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2025.
